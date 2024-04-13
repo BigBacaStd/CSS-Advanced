@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Styles-->
+    <link rel="stylesheet" href="fonts/fontawesome-free-6.1.2-web/css/all.min.css" />
+    <link rel="stylesheet" href="fonts/poppins/poppins.css" />
+    <link rel="stylesheet" href="fonts/fontawesome-free-6.1.2-web/css/reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="scroll.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <!--Fin Styles-->
+
+      <!--Script JS-->
+
+      <script src="fonts/fontawesome-free-6.1.2-web/js/menu.js"defer></script>
+
+      <!--Script JS Fin-->
+    <title>Studio Baca</title>
+</head>
+
+<body>
+    <!--Layout principal-->
+
+    <div class="layout">
+        <!--Barra lateral (info usuario)-->
+
+        <aside class="layout__aside">
+            <section class="aside__user-info">
+
+                <!--Informacion general usuario-->
+
+                <div class="user-info__general">
+                    <div class="user-info__container-image">
+                        <img src="img/perfil.jpg" class="user-info__image" alt="Foto de perfil del usuario" />
+                    </div>
+
+                    <h2 class="user-info__name">Jorge Vargas</h2>
+                    <h4 class="user-info__job">Full Stack Developer</h4>
+                </div>
+
+                <!--Menú de navegación-->
+                <nav class="layout__menu">
+
+                    <ul class="menu__list">
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-house"></i>
+                                <span class="menu__overlay">Home</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link ">
+                                <i class="menu__icon fa-solid fa-user"></i>
+                                <span class="menu__overlay">Sobre mi</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="estudios.html" class="menu__link menu__link--active">
+                                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                                <span class="menu__overlay">Curriculum</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="portafolio.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-briefcase"></i>
+                                <span class="menu__overlay">Portafolio</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="blog.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-book"></i>
+                                <span class="menu__overlay">Blog</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="contacto.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-envelope"></i>
+                                <span class="menu__overlay">Contacto</span>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <!--Links a redes sociales-->
+                <div class="user-info__links">
+                    <ul class="links__social">
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class="social__icon fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class="social__icon fa-brands fa-square-github"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!--Boton del curriculum-->
+                <div class="user-info__buttons">
+                    <a href="#" class="user-info__btn">Descarga mi CV</a>
+                </div>
+                <!--Pie de pagina -->
+
+                <footer class="user-info__footer">
+                    &copy;2024 Studio Baca
+                </footer>
+            </section>
+        </aside>
+
+        <!--Contenido principal-->
+
+          <!--Menu responsive-->
+
+    <div class="layout__menu-toggle">
+        <i class="menu-toggle__icon fa-solid fa-bars"></i>
+        <i class="menu-toggle__icon fa-solid fa-xmark"></i>
+
+    </div>
+
+        <main class="layout__content">
+
+            <section class="content__page content__resume">
+                <!--Contenido cambia en cada pagina-->
+                <header class="resume__header">
+                    <h1 class="resume__title">Curriculum</h1>
+                </header>
+
+                <div class="resume__container">
+                    <section class="resume__left">
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Formación</h2>
+                        </header>
+
+                        <div class="resume__timelines">
+                            <article class="timelines__timeline">
+
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2010</h4>
+                                    <span class="timeline__company">Unitec</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Ingeniero en software y redes</h3>
+                                    <p class="timeline__text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        alias
+                                        hic nam itaque? Adipisci aspernatur quibusdam.
+                                    </p>
+                                </div>
+
+                            </article>
+
+                          
+                        </div>
+
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Experiencia</h2>
+                        </header>
+
+                        <div class="resume__timelines">
+                            <article class="timelines__timeline">
+
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2015 - 2024</h4>
+                                    <span class="timeline__company">Google</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Web Developer Senior</h3>
+                                    <p class="timeline__text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates iure, rem
+                                        alias
+                                        hic nam itaque? Adipisci aspernatur quibusdam.
+                                    </p>
+                                </div>
+
+                            </article>
+
+                            <article class="timelines__timeline">
+
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2016 - 2022</h4>
+                                    <span class="timeline__company">Google</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Web Developer</h3>
+                                    <p class="timeline__text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates iure, rem
+                                        alias
+                                        hic nam itaque? Adipisci aspernatur quibusdam.
+                                    </p>
+                                </div>
+
+                            </article>
+
+                            <article class="timelines__timeline">
+
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2013 - 2015</h4>
+                                    <span class="timeline__company">Google</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">IT Support</h3>
+                                    <p class="timeline__text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates iure, rem
+                                        alias
+                                        hic nam itaque? Adipisci aspernatur quibusdam.
+                                    </p>
+                                </div>
+
+                            </article>
+                        </div>
+
+                    </section>
+
+                    <section class="resume__right">
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Habilidades de <span class="subtitle__color">diseño</span> </h2>
+                        </header>
+
+                        <div class="resume__skills">
+                            <article class="skills__title">
+                                <h4 class="skills__text">Diseño</h4>
+                                <span class="skills__number">90%</span>
+                            </article>
+                            <div class="skills__progressbar">
+                                <div class="skills__porcentage skills__porcentage--p1"></div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Diseño Mockups</h4>
+                                <span class="skills__number">70%</span>
+                            </article>
+                            <div class="skills__progressbar">
+                                <div class="skills__porcentage skills__porcentage--p2"></div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Diseño Logos</h4>
+                                <span class="skills__number">60%</span>
+                            </article>
+                            <div class="skills__progressbar">
+                                <div class="skills__porcentage skills__porcentage--p3"></div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Diseño Banners</h4>
+                                <span class="skills__number">80%</span>
+                            </article>
+                            <div class="skills__progressbar">
+                                <div class="skills__porcentage skills__porcentage--p4"></div>
+                            </div>
+                        </div>
+
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Habilidades de <span class="subtitle__color">codigo</span></h2>
+                        </header>
+
+                        <div class="resume__skills">
+                            <article class="skills__title">
+                                <h4 class="skills__text">HTML / CSS</h4>
+                                <span class="skills__number">90%</span>
+                            </article>
+                            <div class="skills__progressbar">
+                                <div class="skills__porcentage skills__porcentage--p5"></div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Javascript</h4>
+                                <span class="skills__number">70%</span>
+                            </article>
+                            <div class="skills__progressbar">
+                                <div class="skills__porcentage skills__porcentage--p6"></div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">React</h4>
+                                <span class="skills__number">80%</span>
+                            </article>
+                            <div class="skills__progressbar">
+                                <div class="skills__porcentage skills__porcentage--p7"></div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">PHP</h4>
+                                <span class="skills__number">80%</span>
+                            </article>
+                            <div class="skills__progressbar">
+                                <div class="skills__porcentage skills__porcentage--p8"></div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Laravel</h4>
+                                <span class="skills__number">80%</span>
+                            </article>
+                            <div class="skills__progressbar">
+                                <div class="skills__porcentage skills__porcentage--p9"></div>
+                            </div>
+                        </div>
+
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Areas de Conocimientos</h2>
+                        </header>
+
+                        <div class="resume__knowledge">
+                            <ul class="knowledge__list">
+                                <li class="knowledges__option">Programacion</li>
+                                <li class="knowledges__option">Desarrollo Web</li>
+                                <li class="knowledges__option">Diseño Web</li>
+                                <li class="knowledges__option">Bases de datos</li>
+                                <li class="knowledges__option">Frameworks</li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="resume__certificates">
+                    <header class="resume__subheader">
+                        <h1 class="resume__subtitle">Certificados</h1>
+                    </header>
+
+                    <section class="certificates__container">
+                        <article class="certificate__certificate">
+                            <div class="certificate__logo">
+                                <img src="img/certificado-1.png" class="certificate__image"/>
+                            </div>
+                            <div class="certificate__content">
+                                <h4 class="certificate__title">PHP, SQL, POO, Laravel, Javascript</h4>
+                                <span class="certificate__id">ID Verification: 12484541a5</span>
+                                <span class="certificate__date">10 Mayo 2023</span>
+                            </div>
+                        </article>
+
+                        <article class="certificate__certificate">
+                            <div class="certificate__logo">
+                                <img src="img/certificado-1.png" class="certificate__image"/>
+                            </div>
+                            <div class="certificate__content">
+                                <h4 class="certificate__title">Master en pruebas tecnicas</h4>
+                                <span class="certificate__id">ID Verification: 124511h5</span>
+                                <span class="certificate__date">24 Junio 2023</span>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+
+
+            </section>
+        </main>
+
+    </div>
+
+</body>
+
+</html>

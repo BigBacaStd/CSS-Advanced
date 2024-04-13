@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Styles-->
+    <link rel="stylesheet" href="fonts/fontawesome-free-6.1.2-web/css/all.min.css" />
+    <link rel="stylesheet" href="fonts/poppins/poppins.css" />
+    <link rel="stylesheet" href="fonts/fontawesome-free-6.1.2-web/css/reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="scroll.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <!--Fin Styles-->
+
+      <!--Script JS-->
+
+      <script src="fonts/fontawesome-free-6.1.2-web/js/menu.js"defer></script>
+
+      <!--Script JS Fin-->
+    <title>Studio Baca</title>
+</head>
+
+<body>
+    <!--Layout principal-->
+
+    <div class="layout">
+        <!--Barra lateral (info usuario)-->
+
+        <aside class="layout__aside">
+            <section class="aside__user-info">
+
+                <!--Informacion general usuario-->
+
+                <div class="user-info__general">
+                    <div class="user-info__container-image">
+                        <img src="img/perfil.jpg" class="user-info__image" alt="Foto de perfil del usuario" />
+                    </div>
+
+                    <h2 class="user-info__name">Jorge Vargas</h2>
+                    <h4 class="user-info__job">Full Stack Developer</h4>
+                </div>
+
+                <!--Menú de navegación-->
+                <nav class="layout__menu">
+
+                    <ul class="menu__list">
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-house"></i>
+                                <span class="menu__overlay">Home</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link ">
+                                <i class="menu__icon fa-solid fa-user"></i>
+                                <span class="menu__overlay">Sobre mi</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="estudios.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                                <span class="menu__overlay">Curriculum</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="portafolio.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-briefcase"></i>
+                                <span class="menu__overlay">Portafolio</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="blog.html" class="menu__link menu__link--active">
+                                <i class="menu__icon fa-solid fa-book"></i>
+                                <span class="menu__overlay">Blog</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="contacto.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-envelope"></i>
+                                <span class="menu__overlay">Contacto</span>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <!--Links a redes sociales-->
+                <div class="user-info__links">
+                    <ul class="links__social">
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class="social__icon fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class="social__icon fa-brands fa-square-github"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!--Boton del curriculum-->
+                <div class="user-info__buttons">
+                    <a href="#" class="user-info__btn">Descarga mi CV</a>
+                </div>
+                <!--Pie de pagina -->
+
+                <footer class="user-info__footer">
+                    &copy;2024 Studio Baca
+                </footer>
+            </section>
+        </aside>
+
+        <!--Contenido principal-->
+
+          <!--Menu responsive-->
+
+    <div class="layout__menu-toggle">
+        <i class="menu-toggle__icon fa-solid fa-bars"></i>
+        <i class="menu-toggle__icon fa-solid fa-xmark"></i>
+
+    </div>
+
+        <main class="layout__content">
+
+            <section class="content__page content__blog">
+                <!--Contenido cambia en cada pagina-->
+                <header class="blog__header">
+                    <h1 class="blog__title">Blog</h1>
+                </header>
+
+                <section class="blog__articles">
+                    <article class="articles__article">
+                        <div class="article__top">
+                            <div class="article__category">Desarrollo</div>
+                            <a href="#" class="article__image-link">
+                                <div class="article__mask">
+                                    <img src="img/articulo-1.jpg" class="article__image" alt="Imagen del blog" />
+                                </div>
+                                <div class="article__logo">
+                                    <i class="article__icon fa-solid fa-book"></i>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="article__bottom">
+                            <time datetime="31-03-2024" class="article__date">31-03-2024</time>
+                            <a href="#" class="article__image-link">
+                                <h2 class="articule__title">Como aprender a programar en el 2024</h2>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="articles__article">
+                        <div class="article__top">
+                            <div class="article__category">Desarrollo</div>
+                            <a href="#" class="article__image-link">
+                                <div class="article__mask">
+                                    <img src="img/articulo-2.jpg" class="article__image" alt="Imagen del blog" />
+                                </div>
+                                <div class="article__logo">
+                                    <i class="article__icon fa-solid fa-book"></i>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="article__bottom">
+                            <time datetime="31-03-2024" class="article__date">30-08-2024</time>
+                            <a href="#" class="article__image-link">
+                                <h2 class="articule__title">Como hacer animaciones en CSS</h2>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="articles__article">
+                        <div class="article__top">
+                            <div class="article__category">Desarrollo</div>
+                            <a href="#" class="article__image-link">
+                                <div class="article__mask">
+                                    <img src="img/articulo-3.jpg" class="article__image" alt="Imagen del blog" />
+                                </div>
+                                <div class="article__logo">
+                                    <i class="article__icon fa-solid fa-book"></i>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="article__bottom">
+                            <time datetime="31-03-2024" class="article__date">31-03-2024</time>
+                            <a href="#" class="article__image-link">
+                                <h2 class="articule__title">Como usar local storage</h2>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="articles__article">
+                        <div class="article__top">
+                            <div class="article__category">Desarrollo</div>
+                            <a href="#" class="article__image-link">
+                                <div class="article__mask">
+                                    <img src="img/articulo-4.jpg" class="article__image" alt="Imagen del blog" />
+                                </div>
+                                <div class="article__logo">
+                                    <i class="article__icon fa-solid fa-book"></i>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="article__bottom">
+                            <time datetime="31-03-2024" class="article__date">30-05-2024</time>
+                            <a href="#" class="article__image-link">
+                                <h2 class="articule__title">Como aprender React</h2>
+                            </a>
+                        </div>
+                    </article>
+                </section>
+
+
+
+            </section>
+        </main>
+
+    </div>
+
+</body>
+
+</html>
