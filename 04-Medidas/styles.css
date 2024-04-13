@@ -1,0 +1,26 @@
+.padre{
+    font-size: 10px;
+}
+
+.padre h1{
+    font-size: 5em;
+}
+
+.padre2{
+    font-size: 50px;
+}
+.caja{
+    
+
+    width: 13em;
+    height: 13em;
+
+    
+    background-color: aquamarine;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.caja h3{
+    font-size: 5em;
+}
