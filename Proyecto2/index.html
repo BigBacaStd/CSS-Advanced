@@ -13,6 +13,7 @@
     <!--Inicio estilos-->
     <link rel="stylesheet" href="assets/css/reset.css"/>
     <link rel="stylesheet" href="assets/css/styles.css"/>
+    <link rel="stylesheet" href="assets/css/responsive.css"/>
 
     <!--Cargar JS-->
 
@@ -391,10 +392,7 @@
                         <div class="project__tag">
 
                             <span class="project__tag">Web</span>
-                            <span class="project__tag">
-                                    <UI>
-                                        <UX></UX>
-                                </span>
+
                         </div>
                     </div>
                 </article>
@@ -548,10 +546,9 @@
                             <img class="review__img" src="assets/img/google-2.png"/>
                         </span>
 
-                    <p class="reviews__description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, ullam dolorem voluptatibus
-                        neque
-                        iusto veritatis illo, suscipit.
+                    <p class="review__description">
+                        "En Google podras buscar todo lo que necesites. Es importante saber manejarlo con soltura, sera
+                        muy util a la hora de buscar errores".
                     </p>
 
                     <div class="review__author">
@@ -571,10 +568,9 @@
                             <img class="review__img" src="assets/img/udemy.png"/>
                         </span>
 
-                    <p class="reviews__description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, ullam dolorem voluptatibus
-                        neque
-                        iusto veritatis illo, suscipit.
+                    <p class="review__description">
+                        "Tengo muchos recursos de programacion y desarrollo web para empezar desde 0 hasta convertirte
+                        en profesional"
                     </p>
 
                     <div class="review__author">
@@ -594,10 +590,9 @@
                             <img class="review__img" src="assets/img/youtube.png"/>
                         </span>
 
-                    <p class="reviews__description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, ullam dolorem voluptatibus
-                        neque
-                        iusto veritatis illo, suscipit.
+                    <p class="review__description">
+                        "En Youtube tengo todo tipo de videos que te seran de ayuda, desde los conceptos basicos, hasta
+                        problemas del dia a dia hata cosas muy avanzadas"
                     </p>
 
                     <div class="review__author">
@@ -628,7 +623,7 @@
 
     </section>
     <!--Clientes-->
-    <section class="clients__layout">
+    <section class="layout__clients">
         <div class="clients__container">
             <header class="clients__header">
                 <h4 class="clients__subtitle">Mejores clientes</h4>
@@ -673,7 +668,7 @@
                 <h4 class="news__subtitle">¿Que esta pasando?</h4>
                 <h2 class="news__title">Ultimas noticias</h2>
                 <p class="news__description">
-                    Novedades sobre el desarrollo web, desarrollo movil y diseño
+                    Novedades sobre el desarrollo web, desarrollo movil y diseño digital
                 </p>
             </header>
 
@@ -687,16 +682,16 @@
                             <a href="#" class="new__link">
                                 Como maquetar una web con HTML5 y CSS3
                             </a>
-
-                            <p class="new__description">
-                                ¿Quieres dar tus primeros pasos en el desarrollo web y aprender a programar?
-                            </p>
-
-                            <a href="#" class="new__more">
-                                Leer más
-                                <i class="fa-solid fa-chevron-circle-right"></i>
-                            </a>
                         </h3>
+                        <p class="new__description">
+                            ¿Quieres dar tus primeros pasos en el desarrollo web y aprender a programar?
+                        </p>
+
+                        <a href="#" class="new__more">
+                            Leer más
+                            <i class="fa-solid fa-chevron-circle-right"></i>
+                        </a>
+
                     </div>
                 </article>
 
@@ -709,16 +704,16 @@
                             <a href="#" class="new__link">
                                 Javascript
                             </a>
-
-                            <p class="new__description">
-                                Aprender a programar con Javascript
-                            </p>
-
-                            <a href="#" class="new__more">
-                                Leer más
-                                <i class="fa-solid fa-chevron-circle-right"></i>
-                            </a>
                         </h3>
+                        <p class="new__description">
+                            ¿Quieres dar tus primeros pasos a la programacion en el lado del cliente?
+                        </p>
+
+                        <a href="#" class="new__more">
+                            Leer más
+                            <i class="fa-solid fa-chevron-circle-right"></i>
+                        </a>
+
                     </div>
                 </article>
             </div>
@@ -737,13 +732,13 @@
                 </div>
             </li>
 
-            <li class="new-shapes__item project-shapes--shape3">
+            <li class="new-shapes__item new-shapes--shape3">
                 <div class="new-shapes__container">
                     <img class="new-shapes__img" src="assets/img/line-2.png"/>
                 </div>
             </li>
 
-            <li class="new-shapes__item project-shapes--shape3">
+            <li class="new-shapes__item new-shapes--shape4">
                 <div class="new-shapes__container">
                     <img class="new-shapes__img" src="assets/img/bubble-2.png"/>
                 </div>
@@ -760,11 +755,11 @@
                 <h4 class="contact__subtitle">Trabajemos juntos</h4>
                 <h2 class="contact__title">¿Creamos tu nuevo proyecto?</h2>
 
-                <a class="contact__btn" href="#">Pedir contización</a>
+                <a class="contact__btn" href="#">Pedir cotización</a>
             </header>
 
             <div class="contact__images">
-                <div class="contact__thumb">
+                <div class="contact__thumb contact__thumb--chat">
                     <img class="contact__img" src="assets/img/chat-group.png"/>
                 </div>
 
@@ -837,55 +832,55 @@
                         </a>
                     </li>
 
-                    <ul class="footer__social">
-                        <li class="social__item">
-                            <a href="#" class="social__link">
-                                <i class="fa-brands fa-twitter social__img"></i>
-                            </a>
-                        </li>
 
-                        <ul class="footer__social">
-                            <li class="social__item">
-                                <a href="#" class="social__link">
-                                    <i class="fa-brands fa-youtube social__img"></i>
-                                </a>
-                            </li>
+                    <li class="social__item">
+                        <a href="#" class="social__link">
+                            <i class="fa-brands fa-twitter social__img"></i>
+                        </a>
+                    </li>
 
-                            <ul class="footer__social">
-                                <li class="social__item">
-                                    <a href="#" class="social__link">
-                                        <i class="fa-brands fa-linkedin social__img"></i>
-                                    </a>
-                                </li>
 
-                                <ul class="footer__social">
-                                    <li class="social__item">
-                                        <a href="#" class="social__link">
-                                            <i class="fa-brands fa-instagram social__img"></i>
-                                        </a>
-                                    </li>
+                    <li class="social__item">
+                        <a href="#" class="social__link">
+                            <i class="fa-brands fa-youtube social__img"></i>
+                        </a>
+                    </li>
 
-                                    <ul class="footer__social">
-                                        <li class="social__item">
-                                            <a href="#" class="social__link">
-                                                <i class="fa-brands fa-pinterest-p social__img"></i>
-                                            </a>
-                                        </li>
 
-                                        <ul class="footer__social">
-                                            <li class="social__item">
-                                                <a href="#" class="social__link">
-                                                    <i class="fa-brands fa-vimeo social__img"></i>
-                                                </a>
-                                            </li>
+                    <li class="social__item">
+                        <a href="#" class="social__link">
+                            <i class="fa-brands fa-linkedin social__img"></i>
+                        </a>
+                    </li>
 
-                                            <ul class="footer__social">
-                                                <li class="social__item">
-                                                    <a href="#" class="social__link">
-                                                        <i class="fa-brands fa-behance social__img"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
+
+                    <li class="social__item">
+                        <a href="#" class="social__link">
+                            <i class="fa-brands fa-instagram social__img"></i>
+                        </a>
+                    </li>
+
+
+                    <li class="social__item">
+                        <a href="#" class="social__link">
+                            <i class="fa-brands fa-pinterest-p social__img"></i>
+                        </a>
+                    </li>
+
+
+                    <li class="social__item">
+                        <a href="#" class="social__link">
+                            <i class="fa-brands fa-vimeo social__img"></i>
+                        </a>
+                    </li>
+
+
+                    <li class="social__item">
+                        <a href="#" class="social__link">
+                            <i class="fa-brands fa-behance social__img"></i>
+                        </a>
+                    </li>
+                </ul>
             </section>
 
             <section class="footer__main">
@@ -912,7 +907,7 @@
 
                 <div class="footer__fright">
 
-                    <div class="footer__widget">
+                    <div class="footer__widget footer__widget--50">
                         <h6 class="widget__title">Servicios</h6>
 
                         <ul class="widget__list">
@@ -940,7 +935,7 @@
                         </ul>
                     </div>
 
-                    <div class="footer__widget">
+                    <div class="footer__widget footer__widget--25">
                         <h6 class="widget__title">Recursos</h6>
 
                         <ul class="widget__list">
@@ -960,7 +955,7 @@
                         </ul>
                     </div>
 
-                    <div class="footer__widget">
+                    <div class="footer__widget footer__widget--25">
                         <h6 class="widget__title">Soporte</h6>
 
                         <ul class="widget__list">
@@ -984,7 +979,8 @@
             </section>
 
             <section class="footer__bottom">
-                <div class="fotter__copyright">
+                <div class="footer__copyright">
+
                     <span class="copyright__text">
                         &copy; 2024 Todos los derechos reservador a <a href="#">Studio Baca</a>
                     </span>
