@@ -1413,6 +1413,7 @@ body {
 }
 
 .menu-mobile{
+    display: block;
     visibility: hidden;
     opacity: 0;
 
