@@ -44,8 +44,12 @@ document.addEventListener("DOMContentLoaded", (event) =>{
         item.addEventListener("click", (event)=> {
             let submenu = item.lastElementChild;
 
-            if (submenu.className === "menu-mobile__submenu-mobile"){
-                submenu.style.display = "block";
+            if (submenu.className === "menu-mobile__submenu"){
+                if (submenu.style.display === "block"){
+                    submenu.style.display = "none";
+                }else{
+                    submenu.style.display = "block";
+                }
             }
         });
     });

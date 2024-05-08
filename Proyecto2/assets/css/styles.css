@@ -58,6 +58,18 @@ body {
     align-items: center;
 }
 
+.menu__navbar--fixed{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9;
+    background-color: var(--color-secondary);
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 10%);
+    padding: 1.5rem 8rem;
+
+}
+
 .navbar__logo {
     width: 187px;
 }
@@ -1512,7 +1524,37 @@ body {
     color: var(--color-text-body);
 }
 
+/*Estilos boton modo oscuro*/
 
+.switcher{
+    position: fixed;
+    top: 20rem;
+    left: 0;
+    background-color: var(--color-primary);
+    border-radius: 0 3rem 3rem 0;
+    padding: 1rem;
+    z-index: 5;
+}
+
+.switcher__btn{
+    cursor: pointer;
+    background-color: var(--color-transparent);
+    border: none;
+    display: flex;
+}
+
+.switcher__icon-light,
+.switcher__icon-dark{
+    color: var(--color-secondary);
+    font-size: 1.8rem;
+    height: 4rem;
+    width: 4rem;
+    line-height: 3.6rem;
+}
+
+.switcher__icon-dark{
+    display: none;
+}
 
 
 
