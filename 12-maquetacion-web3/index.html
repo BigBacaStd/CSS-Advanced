@@ -1,218 +1,314 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--Carga de fuentes-->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css"
-      rel="stylesheet"
-    />
-    <link href="assets/fonts/montserrat/montserrat.css" rel="stylesheet" />
+  <!--Carga de fuentes-->
 
-    <!--Carga de estilos-->
+  <link href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css" rel="stylesheet" />
+  <link href="assets/fonts/montserrat/montserrat.css" rel="stylesheet" />
 
-    <link rel="stylesheet" href="assets/css/reset.css" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
+  <!--Carga de estilos-->
 
-    <!--Carga de javascript-->
-    <title>Noticias de Videojuegos - Maquetación 3</title>
-  </head>
-  <body>
-    <!--Barra superior decorativa-->
-    <div class="decoration-bar"></div>
+  <link rel="stylesheet" href="assets/css/reset.css" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
 
-    <!--Layout principal-->
+  <!--Carga de javascript-->
+  <title>Noticias de Videojuegos - Maquetación 3</title>
+</head>
 
-    <div class="layout">
-      <!--Header-->
+<body>
+  <!--Barra superior decorativa-->
+  <div class="decoration-bar"></div>
 
-      <header class="layout__header">
-        <div class="header__title">
-          <a href="header__link">
-            <img src="./assets/img/logo1.png" class="header__img" alt="Logo" />
-          </a>
-        </div>
-      </header>
+  <!--Layout principal-->
 
-      <!--Navegacion-->
+  <div class="layout">
+    <!--Header-->
 
-      <div class="layout__nav">
-        <nav class="nav__navbar">
-          <ul class="navbar__list">
-            <li class="navbar__item">
-              <a href="#" class="navbar__link"> NOTICIAS </a>
+    <header class="layout__header">
+      <div class="header__title">
+        <a href="header__link">
 
-              <div class="navbar__submenu">
-                <!--Lista desplegable-->
+          <img src="./assets/img/logo1.png" class="header__img" alt="Logo" />
+        </a>
+      </div>
+    </header>
 
-                <ul class="navbar__sublist">
-                  <li class="sublist__item">
-                    <a href="#" class="sublist__link">Videojuegos</a>
-                  </li>
+    <!--Navegacion-->
 
-                  <li class="sublist__item">
-                    <a href="#" class="sublist__link">Novedades</a>
-                  </li>
+    <div class="layout__nav">
+      <nav class="nav__navbar">
+        <ul class="navbar__list">
+          <li class="navbar__item">
+            <a href="#" class="navbar__link"> NOTICIAS </a>
 
-                  <li class="sublist__item">
-                    <a href="#" class="sublist__link">Otros</a>
+            <div class="navbar__submenu">
+              <!--Lista desplegable-->
 
-                    <ul class="sublist__dropdown">
-                      <li class="dropdown__item">
-                        <a href="#" class="dropdown__link">Cine</a>
-                      </li>
-                      <li class="dropdown__item">
-                        <a href="#" class="dropdown__link">Tecnologia</a>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-                <!--Carousel de imagenes-->
+              <ul class="navbar__sublist">
+                <li class="sublist__item">
+                  <a href="#" class="sublist__link">Videojuegos</a>
+                </li>
 
-                <div class="submenu__carousel">
-                  <ul class="carousel__menu carouesel__menu--small">
-                    <!--Elemento del carousel-->
-                    <li class="carousel__item">
-                      <!--Imagen-->
-                      <img
-                        src="assets/img/game-1.jpg"
-                        class="carousel__img"
-                        alt="imagen submenu"
-                      />
+                <li class="sublist__item">
+                  <a href="#" class="sublist__link">Novedades</a>
+                </li>
 
-                      <!--Puntuacion-->
-                      <div class="carousel__container-rating">
-                        <div class="container-rating__circle">
-                          <div class="container-rating__border">
-                            <span class="container-rating__mark">9</span>
-                          </div>
-                        </div>
-                      </div>
-                      <!--Detalles-->
-                      <div class="carousel__detail">
-                        <h3 class="carousel__title">
-                          <a href="#" class="carousel__link">
-                            ¿Battelfield 2042 es el mejor de la saga?
-                          </a>
-                        </h3>
-                      </div>
+                <li class="sublist__item">
+                  <a href="#" class="sublist__link">Otros</a>
+
+                  <ul class="sublist__dropdown">
+                    <li class="dropdown__item">
+                      <a href="#" class="dropdown__link">Cine</a>
                     </li>
-
-                    <li class="carousel__item">
-                      <!--Imagen-->
-                      <img
-                        src="assets/img/game-2.webp"
-                        class="carousel__img"
-                        alt="imagen submenu"
-                      />
-
-                      <!--Detalles-->
-                      <div class="carousel__detail">
-                        <h3 class="carousel__title">
-                          <a href="#" class="carousel__link">
-                            ¿Elden Ring es el mejor juego del año?
-                          </a>
-                        </h3>
-                      </div>
+                    <li class="dropdown__item">
+                      <a href="#" class="dropdown__link">Tecnologia</a>
                     </li>
-
-                    <li class="carousel__item">
-                      <!--Imagen-->
-                      <img
-                        src="assets/img/game-3.jpg"
-                        class="carousel__img"
-                        alt="imagen submenu"
-                      />
-
-                      <!--Detalles-->
-                      <div class="carousel__detail">
-                        <h3 class="carousel__title">
-                          <a href="#" class="carousel__link">
-                            ¿The Last of us 1 remake es mejor que el original?
-                          </a>
-                        </h3>
-                      </div>
-                    </li>
-
-                    <li class="carousel__item">
-                        <!--Imagen-->
-                        <img
-                          src="assets/img/game-4.jpg"
-                          class="carousel__img"
-                          alt="imagen submenu"
-                        />
-  
-                        <!--Detalles-->
-                        <div class="carousel__detail">
-                          <h3 class="carousel__title">
-                            <a href="#" class="carousel__link">
-                              Review de Dying Light 2
-                            </a>
-                          </h3>
-                        </div>
-                      </li>
                   </ul>
-                </div>
-              </div>
-            </li>
+                </li>
+              </ul>
+              <!--Carousel de imagenes-->
 
-            <li class="navbar__item">
-              <a href="#" class="navbar__link"> 
-                ANALISIS 
-            </a>
-                <div class="navbar__submenu">
-                    <div class="submenu__carousel">
-                        <ul class="carousel__menu">
-                            <!--Elemento del carousel-->
-                            <li class="carousel__item">
-                                <!--Imagen-->
-                        <img
-                        src="assets/img/game-5 (1).jpg"
-                        class="carousel__img"
-                        alt="imagen submenu"
-                      />
+              <div class="submenu__carousel">
+                <ul class="carousel__menu carouesel__menu--small">
+                  <!--Elemento del carousel-->
 
-                      <!--Detalles-->
-                      <div class="carousel__detail">
-                        <h3 class="carousel__title">
-                          <a href="#" class="carousel__link">
-                            Sifu es el juego de peleas más dificil
-                          </a>
-                        </h3>
+                  <li class="carousel__item">
+
+                    <!--Imagen-->
+
+                    <div class="carousel__container-img">
+                      <img src="assets/img/game-1.jpg" class="carousel__img" alt="imagen submenu" />
+                    </div>
+
+
+                    <!--Puntuacion-->
+                    <div class="carousel__container-rating">
+                      <div class="container-rating__circle">
+                        <div class="container-rating__border">
+                          <span class="container-rating__mark">9</span>
+                        </div>
                       </div>
-                    </li>
+                    </div>
+                    <!--Detalles-->
+                    <div class="carousel__detail">
+                      <h3 class="carousel__title">
+                        <a href="#" class="carousel__link">
+                          ¿Battelfield 2042 es el mejor de la saga?
+                        </a>
+                      </h3>
+                    </div>
+                  </li>
+
+                  <li class="carousel__item">
+                    <!--Imagen-->
+
+                    <div class="carousel__container-img">
+                      <img src="assets/img/game-2.webp" class="carousel__img" alt="imagen submenu" />
+                    </div>
+
+
+                    <!--Detalles-->
+                    <div class="carousel__detail">
+                      <h3 class="carousel__title">
+                        <a href="#" class="carousel__link">
+                          ¿Elden Ring es el mejor juego del año?
+                        </a>
+                      </h3>
+                    </div>
+                  </li>
+
+                  <li class="carousel__item">
+                    <!--Imagen-->
+                    <div class="carousel__container-img">
+                      <img src="assets/img/game-3.jpg" class="carousel__img" alt="imagen submenu" />
+                    </div>
+
+
+
+                    <!--Detalles-->
+                    <div class="carousel__detail">
+                      <h3 class="carousel__title">
+                        <a href="#" class="carousel__link">
+                          ¿The Last of us 1 remake es mejor que el original?
+                        </a>
+                      </h3>
+                    </div>
+                  </li>
+
+                  <li class="carousel__item">
+                    <!--Imagen-->
+
+                    <div class="carousel__container-img">
+                      <img src="assets/img/game-4.jpg" class="carousel__img" alt="imagen submenu" />
+                    </div>
+
+
+                    <!--Detalles-->
+                    <div class="carousel__detail">
+                      <h3 class="carousel__title">
+                        <a href="#" class="carousel__link">
+                          Review de Dying Light 2
+                        </a>
+                      </h3>
+                    </div>
+                  </li>
                 </ul>
               </div>
             </div>
-                            </li>
-                        </ul>
+          </li>
+
+          <li class="navbar__item">
+            <a href="#" class="navbar__link">
+              ANALISIS
+            </a>
+
+            <div class="navbar__submenu">
+
+              <div class="submenu__carousel">
+
+                <ul class="carousel__menu">
+                  <!--Elemento del carousel-->
+                  <li class="carousel__item">
+                    <!--Imagen-->
+                    <img src="assets/img/game-5 (1).jpg" class="carousel__img" alt="imagen submenu" />
+
+                    <!--Detalles-->
+                    <div class="carousel__detail">
+                      <h3 class="carousel__title">
+                        <a href="#" class="carousel__link">
+                          Sifu es el juego de peleas más dificil
+                        </a>
+                      </h3>
                     </div>
-                </div>
-            </li>
 
-            <li class="navbar__item">
-              <a href="#" class="navbar__link"> JUEGOS </a>
-            </li>
+                    <!--Puntuacion-->
+                    <div class="carousel__container-rating">
+                      <div class="container-rating__circle">
+                        <div class="container-rating__border">
+                          <span class="container-rating__mark">7.5</span>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
 
-            <li class="navbar__item">
-              <a href="#" class="navbar__link"> CATEGORIAS </a>
-            </li>
+                  <!--Elemento del carousel-->
+                  <li class="carousel__item">
+                    <!--Imagen-->
+                    <img src="assets/img/game-6.jpg" class="carousel__img" alt="imagen submenu" />
 
-            <li class="navbar__item">
-              <a href="#" class="navbar__link"> RANKING </a>
-            </li>
-          </ul>
+                    <!--Detalles-->
+                    <div class="carousel__detail">
+                      <h3 class="carousel__title">
+                        <a href="#" class="carousel__link">
+                          Trailer FC24
+                        </a>
+                      </h3>
+                    </div>
 
-          <form class="navbar__search"></form>
-        </nav>
-      </div>
+                    <!--Puntuacion-->
+                    <div class="carousel__container-rating">
+                      <div class="container-rating__circle">
+                        <div class="container-rating__border">
+                          <span class="container-rating__mark">6</span>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <!--Elemento del carousel-->
+                  <li class="carousel__item">
+                    <!--Imagen-->
+                    <img src="assets/img/game-7.png" class="carousel__img" alt="imagen submenu" />
+
+                    <!--Detalles-->
+                    <div class="carousel__detail">
+                      <h3 class="carousel__title">
+                        <a href="#" class="carousel__link">
+                          ¿Multiversus es mejor que Super Smash Bros?
+                        </a>
+                      </h3>
+                    </div>
+
+                    <!--Puntuacion-->
+                    <div class="carousel__container-rating">
+                      <div class="container-rating__circle">
+                        <div class="container-rating__border">
+                          <span class="container-rating__mark">8</span>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <!--Elemento del carousel-->
+                  <li class="carousel__item">
+                    <!--Imagen-->
+                    <img src="assets/img/game-8.jpg" class="carousel__img" alt="imagen submenu" />
+
+                    <!--Detalles-->
+                    <div class="carousel__detail">
+                      <h3 class="carousel__title">
+                        <a href="#" class="carousel__link">
+                          Review de Gran Turismo 7
+                        </a>
+                      </h3>
+                    </div>
+
+
+                  </li>
+
+                  <!--Elemento del carousel-->
+                  <li class="carousel__item">
+                    <!--Imagen-->
+                    <img src="assets/img/game-9.webp" class="carousel__img" alt="imagen submenu" />
+
+                    <!--Detalles-->
+                    <div class="carousel__detail">
+                      <h3 class="carousel__title">
+                        <a href="#" class="carousel__link">
+                          Detalles alucinantes de Forza Horizon 5
+                        </a>
+                      </h3>
+                    </div>
+
+
+
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
     </div>
+  </div>
+  </li>
 
-    <!--Footer-->
+  <li class="navbar__item">
+    <a href="#" class="navbar__link"> JUEGOS </a>
 
-    <footer class="footer"></footer>
-  </body>
+
+  </li>
+
+  <li class="navbar__item">
+    <a href="#" class="navbar__link"> CATEGORIAS </a>
+  </li>
+
+  <li class="navbar__item">
+    <a href="#" class="navbar__link"> RANKING </a>
+  </li>
+  </ul>
+
+  <form class="navbar__search"></form>
+  </nav>
+  </div>
+  </div>
+
+  <!--Footer-->
+
+  <footer class="footer"></footer>
+</body>
+
 </html>
