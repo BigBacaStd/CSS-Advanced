@@ -477,6 +477,7 @@ body{
     right: 0;
     padding: 1rem;
     color: var(--color-principal);
+
 }
 
 .slider__category{
@@ -492,6 +493,7 @@ body{
     margin-bottom: 0.3rem;
     background-color: var(--color-secondary);
 }
+
 
 
 .slider__link-title{
