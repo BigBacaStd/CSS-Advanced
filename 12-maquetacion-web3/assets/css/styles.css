@@ -301,7 +301,8 @@ body{
 
 
 
-.container-rating__circle{
+.container-rating__circle,
+.rating__circle{
     width: 100%;
     height: 100%;
     padding: 0.2rem;
@@ -310,7 +311,8 @@ body{
 
 }
 
-.container-rating__border{
+.container-rating__border,
+.rating__border{
     width: 100%;
     height: 100%;
     border-radius: 3.2rem;
@@ -320,7 +322,8 @@ body{
     align-items: center;
 }
 
-.container-rating__mark{
+.container-rating__mark,
+.rating__mark{
     font-weight: 700;
     color: var(--color-principal);
 }
@@ -491,16 +494,15 @@ body{
     margin-bottom: 0.3rem;
     background-color: var(--color-secondary);
 }
-
 */
 
 
+
 .slider__link-title{
-    color: var(--color-principal);
-    text-transform: uppercase;
     font-size: 1.5rem;
     text-shadow: 1px 1px 3px var(--color-bg-navbar);
-
+    color: var(--color-principal);
+    text-transform: uppercase;
 }
 
 .slider__rating{
