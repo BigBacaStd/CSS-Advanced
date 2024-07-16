@@ -486,7 +486,7 @@ body{
     text-shadow: 1px 1px 3px var(--color-bg-navbar);
 }
 
-/*
+
 .slider__line{
     width: 4rem;
     height: 0.3rem;
@@ -494,8 +494,6 @@ body{
     margin-bottom: 0.3rem;
     background-color: var(--color-secondary);
 }
-*/
-
 
 
 .slider__link-title{
