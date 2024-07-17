@@ -516,6 +516,60 @@ body{
 
 .layout__highlights{
     grid-area: high;
+    margin-bottom: 3rem;
+}
+
+.highlights__posts{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.highlights__post{
+    height: 100%;
+    border-bottom: 1px solid var(--color-bg-marquee);
+}
+
+.highlights__image{
+    position: relative;
+    overflow: hidden;
+}
+
+.highlights__img{
+
+}
+
+/*ESTILOS SUB ENCABEZADO*/
+
+.news__subheader,
+.games__subheader,
+.login__subheader,
+.posts__subheader,
+.recent__subheader,
+.videos__subheader,
+.highlights__subheader,
+.last-reviews__subheader{
+    width: 100%;
+    height: 3.5rem;
+    margin-bottom: 3rem;
+    background-color: var(--color-bg-navbar);
+    padding: 0.5rem;
+}
+
+.subheader__title,
+.news__title,
+.list-header__title,
+.subheader__title,
+.last-reviews__title{
+    display: inline;
+    font-weight: 400;
+    color: var(--color-principal);
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    background-color: var(--color-secondary);
+    white-space: nowrap;
 }
 
 /*ESTILOS VIDEOS*/
