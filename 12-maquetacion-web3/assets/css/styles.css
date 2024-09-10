@@ -554,7 +554,8 @@ body{
     transform: scale(1.1);
 }
 
-.highlights__category{
+.highlights__category,
+.game__container-category{
     position: absolute;
     left: 0;
     bottom: 1rem;
@@ -565,11 +566,13 @@ body{
 
 }
 
-.highlights__category:hover{
+.highlights__category:hover,
+.game__container-category:hover{
     background-color: var(--color-bg-navbar);
 }
 
-.highlights__name-category{
+.highlights__name-category,
+.game__category{
     font-weight: 400;
     font-size: 1.1rem;
     text-transform: uppercase;
@@ -604,7 +607,8 @@ body{
 .highlights__author,
 .main-video__author,
 .video__author,
-.main-post__container-author{
+.main-post__container-author,
+.news__author{
     font-weight: 500;
     font-size: 1.1rem;
     text-transform: uppercase;
@@ -614,16 +618,13 @@ body{
 .highlights__date,
 .main-video__date,
 .video__date,
-.main-post__date{
+.main-post__date,
+.news__date{
     font-weight: 400;
     font-size: 1.1rem;
     color: var(--color-text-marquee);
-}{
-    font-weight: 400;
     text-transform: uppercase;
-    font-size: 1.1rem;
     line-height: 1.5;
-    color: var(--color-text-marquee);
 }
 
 .highlights__description{
@@ -927,7 +928,7 @@ body{
     flex-direction: row;
     gap: 3rem;
     margin-bottom: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 0rem;
     border-bottom: 1px solid var(--color-bg-marquee);
 }
 
@@ -987,7 +988,8 @@ body{
     color: var(--color-secondary);
 }
 
-.main-post__meta{
+.main-post__meta,
+.news__data{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -1005,6 +1007,149 @@ body{
     flex-direction: row;
     justify-content: space-between;
 }
+
+.news__list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4rem;
+    margin-bottom: 6rem;
+}
+
+.news__post{
+    display: flex;
+    gap: 1rem;
+    flex-basis: calc(50% - 2rem);
+}
+
+.news__image{
+    overflow: hidden;
+    width: 7.5rem;
+    height: 7.5rem;
+}
+
+.news__img{
+    width: 100%;
+    height: 100%;
+    transition: all 300ms ease-in-out;
+}
+
+.news__img:hover .news__img{
+    transform: scale(1.1);
+}
+
+.news__detail{
+    width: 75%;
+}
+
+.news__title-post{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.news__link-title{
+    color: var(--color-titles);
+    transition: all 300ms ease;
+}
+
+.news__link-title:hover{
+    color: var(--color-secondary);
+}
+
+.news__data{
+    justify-content: left;
+    gap: 1rem;
+}
+
+/*SECCION JUEGOS*/
+
+.main__games{
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.games__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.games__game{
+    position: relative;
+    flex-basis: calc(50% - 1.5rem);
+}
+
+.game__container-image{
+    overflow: hidden;
+}
+
+.game__img{
+    width: 100%;
+    transition: all 300ms;
+}
+
+.game__img:hover{
+    transform: scale(1.1);
+}
+
+.game__rating{
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    z-index: 9;
+}
+
+.game__details{
+    width: 100%;
+    min-height: 5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0.5rem 1rem;
+    padding-right: 5rem;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.game__title{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.game__link-title{
+    color: var(--color-principal);
+    transition: all 300ms ease;
+}
+
+.game__title:hover .game__link-title{
+    text-shadow: 0 0 5px black;
+}
+
+/*SECCION ULTIMOS ARTICULOS*/
+
+.main__posts{
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.posts__list-header{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.list-header--small{
+    font-weight: 400;
+    color: white;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    padding: 0.5rem;
+    white-space: nowrap;
+}
+
 
 /*ESTILOS LATERAL ASIDE*/
 
