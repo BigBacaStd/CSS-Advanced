@@ -10,6 +10,11 @@
     --color-text-marquee: #7C7C7C;
     --color-titles: #333333;
     --color-bg-aside: #F5F5F5;
+    --color-twitter: #2FC2EF;
+    --color-facebook: #4C66A4;
+    --color-instagram: #EA4C89;
+    --color-youtube: #CC181E;
+
 
 }
 
@@ -1156,7 +1161,8 @@ body{
     margin-top: 3rem;
 }
 
-.posts__list-header{
+.posts__list-header,
+.recent__list-header{
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
@@ -1226,7 +1232,7 @@ body{
 }
 
 .form__submit{
-    height: 3.5rem;
+    height: 3.7rem;
     width: 100%;
     background-color: var(--color-secondary);
     color: var(--color-principal);
@@ -1245,3 +1251,162 @@ body{
     color: var(--color-secondary);
     font-weight: 500;
 }
+
+/*ESTILOS REDES SOCIALES */
+
+.aside__social{
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+.social__list{
+    width: 100%;
+
+}
+.social__item{
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 1rem 2rem;
+    color: var(--color-principal);
+    transition: all 300ms ease;
+    background-color: var(--color-twitter);
+}
+
+.social__item:hover{
+    padding-left: 3rem;
+}
+
+.social__link{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: var(--color-principal);
+}
+
+.social__icon{
+    margin-right: 1.5rem;
+    margin-top: 0.2rem;
+}
+
+.social__icon > .fa-brands{
+    font-size: 3.6rem;
+
+}
+
+.social__number{
+    font-size: 1.8rem;
+    line-height: 1;
+}
+
+.social__word{
+    line-height: 1;
+    font-size: 1.3rem;
+    opacity: 0.75;
+}
+
+.social__item--blue{
+    background-color: var(--color-twitter);
+}
+
+.social__item--dark-blue{
+    background-color: var(--color-facebook);
+}
+
+.social__item--red{
+    background-color: var(--color-youtube);
+}
+
+.social__item--pink{
+    background-color: var(--color-instagram);
+}
+
+.social__item--yellow{
+    background-color: var(--color-titles);
+}
+
+
+/*ESTILOS ULTIMOS TWEETS*/
+
+.aside__tweets{
+    font-size: 1.3rem;
+    padding: 1.2rem;
+    margin-bottom: 3rem;
+    background-color: var(--color-twitter);
+    color: var(--color-principal);
+}
+
+.tweets__header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.tweets__header .fa-brands{
+    margin-right: 1rem;
+}
+
+.tweets__title{
+    font-weight: 400;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.tweets__content{
+    margin-bottom: 2rem;
+    hyphens: auto;
+}
+
+/*ESTILOS POST RECIENTES*/
+
+.aside__recent{
+    margin-bottom: 3rem;
+}
+
+.aside__recent .list-header__title{
+    display: inline-block;
+    font-size: 1.3rem;
+    padding: 0.3rem 0.5rem;
+}
+
+.aside__recent .list-header--small{
+    background: none;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+}
+
+.recent__list-posts{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.recent__item{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.recent__container-img{
+    width: 100%;
+    height: 7rem;
+    overflow: hidden;
+}
+
+.recent__img{
+    transition: all 300ms ease;
+}
+
+.recent__img:hover{
+    transform: scale(1.1);
+}
+
+.recent__title{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
