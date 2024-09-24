@@ -1392,12 +1392,13 @@ body{
 }
 
 .recent__container-img{
-    width: 100%;
+    width: 7rem;
     height: 7rem;
     overflow: hidden;
 }
 
 .recent__img{
+    width: 100%;
     transition: all 300ms ease;
 }
 
@@ -1409,4 +1410,17 @@ body{
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
+
+.recent__link-title{
+    color: var(--color-titles);
+    transition: all 300ms ease;
+}
+
+.recent__link-title:hover{
+    color: var(--color-secondary);
+}
+
+
+
+
 
