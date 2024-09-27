@@ -1437,6 +1437,25 @@ body{
     justify-content: space-between;
 }
 
+/*ESTILOS ULTIMAS REVIEWS*/
+
+.aside__last-reviews{
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.aside__last-reviews .last-reviews__subheader{
+    padding: 0.15rem 0.5rem;
+}
+
+.aside__last-reviews .last-reviews__list-header{
+    display: flex;
+}
+
+.aside__last-reviews .last-reviews__link-title{
+
+}
+
 
 
 
