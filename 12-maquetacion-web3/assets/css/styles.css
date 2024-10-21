@@ -666,7 +666,7 @@ body{
 .footer-post__container,
 .footer-info__container,
 .recent__meta-info{
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .footer-post__views,
@@ -694,7 +694,7 @@ body{
 .main-post__comments > .fa-solid,
 .recent__views > .fa-solid,
 .recent__comments > .fa-solid{
-    margin-right: 0.2px;
+    margin-right: 0.2rem;
     font-size: 1.2rem;
 
 }
@@ -732,8 +732,7 @@ body{
 .posts__subheader,
 .recent__subheader,
 .videos__subheader,
-.highlights__subheader,
-.last-reviews__subheader{
+.highlights__subheader{
     width: 100%;
     height: 3.5rem;
     margin-bottom: 3rem;
@@ -744,8 +743,7 @@ body{
 .subheader__title,
 .news__title,
 .list-header__title,
-.subheader__title,
-.last-reviews__title{
+.subheader__title{
     display: inline;
     font-weight: 400;
     color: var(--color-principal);
@@ -1412,6 +1410,51 @@ body{
 .recent__img:hover{
     transform: scale(1.1);
 }
+
+.recent__detail{
+    width: 100%;
+}
+
+.recent__title{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.recent__link-title{
+    color: var(--color-titles);
+    transition: all 300ms ease;
+}
+
+.recent__link-title:hover{
+    color: var(--color-secondary);
+}
+
+.recent__container-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*ESTILOS ULTIMAS REVIEWS*/
+
+.aside__last-reviews{
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.aside__last-reviews .last-reviews__subheader{
+    padding: 0.15rem 0.5rem;
+}
+
+.aside__last-reviews .last-reviews__list-header{
+    display: flex;
+}
+
+.aside__last-reviews .last-reviews__link-title--small{
+    background: none;
+}
+
+
 
 
 
