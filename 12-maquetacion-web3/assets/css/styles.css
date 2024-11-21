@@ -128,7 +128,6 @@ body{
 }
 
 .search__input{
-    display: none;
     width: 20rem;
     height: 5rem;
     font-size: 1.6rem;

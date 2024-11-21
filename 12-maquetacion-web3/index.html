@@ -11,8 +11,10 @@
     <!--Carga de estilos-->
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
     <!--Carga de scripts-->
     <script src="./assets/js/main.js" defer ></script>
+    <script src="./assets/js/marquee.js" defer ></script>
 
     <title>Noticias de Videojuegos - Maquetación 3</title>
 </head>
@@ -33,7 +35,52 @@
 
     <!--Navegacion-->
     <section class="layout__nav">
+
+
         <nav class="nav__navbar">
+
+            <!--Boton menu responsive-->
+
+            <div class="navbar__mobile-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <!--Menu responsive-->
+
+            <ul class="navbar__mobile-list">
+
+                <!--Elemento con submenu-->
+                <li class="mobile-list__item">
+                    <div class="mobile-list__container">
+                        <a href="#" class="mobile-list__link">
+                            NOTICIAS
+
+                            <div class="mobile-list__icon" id="icon1"></div>
+                                <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                    </div>
+
+                    <ul class="mobile-list__msubmenu" id="submenu1">
+                        <li class="msubmenu__item">
+                            <a href="#" class="msubmenu__link">Videojuegos</a>
+                        </li>
+
+                        <li class="msubmenu__item">
+                            <a href="#" class="msubmenu__link">Cine</a>
+                        </li>
+
+                        <li class="msubmenu__item">
+                            <a href="#" class="msubmenu__link">Tecnologia</a>
+                        </li>
+                    </ul>
+                </li>
+
+                
+
+            </ul>
+
+            <!--Navegacion escritorio-->
+
             <ul class="navbar__list">
                 <li class="navbar__item">
                     <a href="#" class="navbar__link">
@@ -596,6 +643,8 @@
                 </li>
 
             </ul>
+
+            <!--Buscador-->
             <form class="navbar__search">
                 <input type="text" class="search__input" name="search" placeholder="Buscar"/>
 
@@ -672,6 +721,30 @@
                 <li class="marquee__item">
                     <h4 class="marquee__title">
                         <a href="#" class="marquee__link">Goty Its Take Two</a>
+                    </h4>
+                </li>
+
+                <li class="marquee__item">
+                    <h4 class="marquee__title">
+                        <a href="#" class="marquee__link">PS6</a>
+                    </h4>
+                </li>
+
+                <li class="marquee__item">
+                    <h4 class="marquee__title">
+                        <a href="#" class="marquee__link">Nintendo Switch 2</a>
+                    </h4>
+                </li>
+
+                <li class="marquee__item">
+                    <h4 class="marquee__title">
+                        <a href="#" class="marquee__link">XBOX Series X</a>
+                    </h4>
+                </li>
+
+                <li class="marquee__item">
+                    <h4 class="marquee__title">
+                        <a href="#" class="marquee__link">PS Vita 2</a>
                     </h4>
                 </li>
 
