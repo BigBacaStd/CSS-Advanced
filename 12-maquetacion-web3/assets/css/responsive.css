@@ -172,6 +172,167 @@
     .videos__video{
         width: calc(50% - 1rem);
     }
+
+
+    /*BARRA LATERAL*/
+
+    .layout__aside{
+        margin-bottom: 3rem;
+    }
+
+    /*FOOTER*/
+
+    .footer__container{
+        width: 70%;
+        min-width: 70rem;
+        flex-direction: column;
+    }
+
+    .footer__left-container,
+    .footer__center-container,
+    .footer__right-container{
+        width: 100%;
+    }
+
+    .footer__fslider{
+        width: auto;
+        height: auto;
+    }
+
+
+}
+
+@media (max-width: 775px) {
+    /*LAYOUT*/
+
+    .layout{
+        width: 57%;
+        min-width: 57em;
+        margin: 0 auto;
+    }
+
+    .footer__container{
+        width: 52%;
+        min-width: 5rem;
+        flex-direction: column;
+    }
+
+    /*SLIDER*/
+
+
+    .slider__container--slider1{
+        width: 100%;
+        height: 24.8rem;
+    }
+
+    .slider__container--slider2{
+        width: 100%;
+        height: 11.8rem;
+    }
+
+    .slider__container--slider3{
+        width: 100%;
+        height: 25rem;
+    }
+
+    .slider__container--slider5{
+        width: 100%;
+        height: 19.25rem;
+    }
+}
+
+@media (max-width: 592px){
+    .layout{
+        width: 35%;
+        min-width: 35rem;
+        margin: 0 auto;
+    }
+
+    .layout__slider{
+
+        grid-template-areas:    "slider1 slider1 slider1 slider1"
+                                "slider2 slider2 slider2 slider2"
+                                "slider3 slider3 slider3 slider3"
+                                "slider4 slider4 slider4 slider4";
+
+        column-gap: 0;
+        grid-template-columns: 100%;
+
+    }
+
+    .slider__container--slider1{
+        width: 100%;
+        height: auto;
+    }
+
+    .slider__container--slider2{
+        width: 100%;
+        height: auto;
+    }
+
+    .slider__container--slider3{
+        width: 100%;
+        height: auto;
+    }
+
+    .slider__container--slider5{
+        width: 100%;
+        height: auto;
+    }
+
+    /*MEJORES MOMENTOS*/
+
+    .highlights__posts{
+        flex-direction: row;
+    }
+
+    .highlights__post{
+        width: 100%;
+    }
+
+    /*VIDEOS*/
+
+    .main__yt-video{
+        height: 20rem;
+    }
+
+
+    .videos__list{
+
+        flex-direction: column;
+    }
+
+    .videos__video{
+        width: 100%;
+    }
+
+    /*CAROUSEL*/
+
+    .carousel-games__item--hidden-small{
+        display: none;
+    }
+
+    /*NOTICIAS*/
+
+    .news__main-post{
+        flex-direction: column;
+    }
+
+    .news__list{
+        flex-direction: column;
+    }
+
+    /*JUEGOS*/
+
+    .games__container{
+        flex-direction: column;
+    }
+
+    .games__game{
+        width: 100%;
+    }
+
+
 }
 
 
